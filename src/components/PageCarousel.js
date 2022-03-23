@@ -19,7 +19,7 @@ const PageCarousel = () => {
         </CarouselTextContainer>
         
         <CarouselImageContainer>
-            <img src="/header.png" width="auto" height="auto" alt='Carousel' />
+            {/* <img src="/header.png" width="auto" height="auto" alt='Carousel' /> */}
         </CarouselImageContainer>
     </ImageContainer>
   )
@@ -42,8 +42,8 @@ const ImageContainer = styled.div`
     /* overflow: hidden; */
 
     /* background-image: url("/caro.jpg"); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/caro1.webp"); */
-    background-color: #FFAA17;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/head3.jpg");
+    /* background-color: #FFAA17; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,18 +82,18 @@ const CarouselTextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 6vh;
+    margin-top: 25vh;
     /* display: block; */
     /* flex: 0.7; */
     /* padding: 0px; */
 
     > h1 {
         /* color: #e96b15; */
-        color: #222429;
-        font-size: 78px;
+        color: #D6CEBF;
+        font-size: 65px;
         font-family: 'Oswald', sans-serif;
         line-height: 1;
-        font-weight: 800;
+        font-weight: 700;
         margin-block-start: 0em;
         margin-block-end: 0em;
         /* font-family: 'Noto Sans', sans-serif; */
@@ -101,7 +101,7 @@ const CarouselTextContainer = styled.div`
     }
 
     > h2 {
-        color: #222429;
+        color: #D6CEBF;
         font-size: 28px;
         font-weight: 300;
         text-transform: capitalize;

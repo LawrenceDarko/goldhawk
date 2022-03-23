@@ -8,7 +8,7 @@ const Footer = () => {
             <FooterOne>
                 <h2>GoldHawk GeoConsult</h2>
                 <FooterLogoContainer>
-                    <img priority={true} src="/hatchlogo.png" width="260px" height="60px" alt='footer' />
+                    <img priority={true} src="/logo.png" width="150px" height="60px" alt='footer' />
                 </FooterLogoContainer>
                 <p>We help companies focus on growth through innovation and disruptive technologies </p>
             </FooterOne>
@@ -22,7 +22,7 @@ const Footer = () => {
             </FooterThree>
         </FooterContainer>
         <FinalFooter>
-            <p>©Copyright 2022, CARISCA - All Rights Reserved</p>
+            <p>©Copyright 2022, goldhawgeoconsult - All Rights Reserved</p>
         </FinalFooter>
     </>
   )
@@ -41,6 +41,13 @@ const FooterContainer = styled.div`
     /* right: 0; */
     position: relative;
     padding: 50px;
+    background-image: url("/images/footer_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* border: 1px solid white; */
 
     @media only screen and (min-device-width : 10px) and (max-device-width : 768px){
         flex-direction: column;
@@ -116,7 +123,7 @@ const FooterLogoContainer = styled.div`
 const FinalFooter = styled.div`
     display: flex;
     height: 55px;
-    background-color: #242424;
+    background-color: #fff;
     bottom: 0;
     left: 0;
     /* right: 0; */
@@ -124,7 +131,7 @@ const FinalFooter = styled.div`
     padding-left: 50px;
 
     > p {
-        color: #bebebe;
+        color: #333;
         font-size: 15px;
         /* font-weight: 300; */
         font-family: 'Open Sans', sans-serif;

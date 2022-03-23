@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
         <NavbarContainer className='navbar'>
             <NavLogo>
-                <Link to="/"><img priority={true} className='NavbarImage' src="/hatchlogo.png" width="270px" height="60px" alt='Logo' /></Link>
+                <Link to="/"><img priority={true} className='NavbarImage' src="/logo.png" width="100px" height="50px" alt='Logo' /></Link>
             </NavLogo>
                 {/* <Burger /> */}
             <NavLinks>
@@ -60,6 +60,7 @@ const NavbarContainer = styled.div`
     /* overflow: hidden; */
     background-color: #fff;
     height: 80px;
+    opacity: 0.9;
     /* width: 218.5vh; */
     /* border: 1px solid black; */
 

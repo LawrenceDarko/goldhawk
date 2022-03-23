@@ -1,16 +1,32 @@
 // import { useState, useEffect } from 'react'
-import styled from "styled-components"
-import Navbar from '../components/Navbar'
-import PageCarousel from '../components/PageCarousel'
-import OurServices from '../components/OurServices'
-import Footer from '../components/Footer'
-import {Helmet} from 'react-helmet'
+import styled from "styled-components";
+import Navbar from '../components/Navbar';
+import PageCarousel from '../components/PageCarousel';
+import OurServices from '../components/OurServices';
+import Footer from '../components/Footer';
+import {Helmet} from 'react-helmet';
+import MediaComponent from '../components/MediaComponent';
+import MediaComponentRight from '../components/MediaComponentRight';
 
 function Home() {
+
+  const BannerOneTitle = "This is the Banner One Title";
+  const BannerOneBody = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisl nunc euismod nisi, eu porttitor nisl nunc euismo";
+  const BannerTwoTitle = "This is the Banner Two Title";
+  const BannerTwoBody = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisl nunc euismod nisi, eu porttitor nisl nunc euismod";
+
+  const colorOne = "#00507b"
+  const colorTwo = "#006c7b"
+
+  const imgLinkOne = "index1.jpeg"
+  const imgLinkTwo = "index2.jpg"
+
+  const bannerheight = "500px";
+
   return (
     <>
       <Helmet>
-        <title>Home | Carisca Lab</title>
+        <title>Home | Goldhawkgeo-consult</title>
         <meta name="description" content="Homepage of the Carisca Lab"/>
         <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
         <meta name="author" content="Baah Lawrence Darko"/>
@@ -21,7 +37,7 @@ function Home() {
       <BodyWrapper>
             <WhoWeAre>
                 <ImageHolder>
-                  <img src="/about.jpg" width="600px" height="550px" alt='Carousel' />
+                  <img src="/about.jpg" alt='Carousel' />
                 </ImageHolder>
                 <ImageTextContainer>
                   <h1>BEST GEO-AGENCY IN GHANA</h1>
@@ -30,6 +46,8 @@ function Home() {
                 </ImageTextContainer>
                 
             </WhoWeAre>
+          <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerOneTitle} BannerOneBody={BannerOneBody} />
+          <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerTwoTitle} BannerTwoBody={BannerTwoBody} />
             <OurServices />
             <UpcomingPrograms>
                 {/* This is the text in the notice board */}
@@ -39,9 +57,9 @@ function Home() {
                 </NoticeText>
 
                 {/* This is the notice board */}
-                {/* <NoticeBoard >
-                  <h1>March 21</h1>
-                </NoticeBoard> */}
+                <NoticeBoard >
+                  <p>TSX-V: NCAU <span>$0.52</span>  |  OTCQX: NCAUF <span>US$0.40</span>  |  GOLD: <span>US$1940</span></p>
+                </NoticeBoard>
 
                     {/* <p>This browser does not support the video tag.</p>
                     <p>This browser does not support the video tag.</p> */}
@@ -99,6 +117,7 @@ const WhoWeAre = styled.div`
 
     @media only screen and (min-device-width : 50px) and (max-device-width : 768px){
         padding: 5vh;
+        flex-direction: column;
       > h2 {
         font-size: 20px;
       }
@@ -106,6 +125,7 @@ const WhoWeAre = styled.div`
 
     @media only screen and (min-device-width : 768px) and (max-device-width : 820px){
         padding: 5vh;
+        flex-direction: column;
       > h2 {
         font-size: 20px;
       }
@@ -114,12 +134,12 @@ const WhoWeAre = styled.div`
 
 const UpcomingPrograms = styled.div`
     align-items: center;
-    height: 122vh;
+    height: 90vh;
     /* width: 100%; */
-    /* overflow: hidden; */
-    /* background-color: #333; */
+    overflow: hidden;
+    background-color: #333;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     /* padding-left: 200px;
     padding-right: 200px; */
     overflow: hidden;
@@ -135,7 +155,7 @@ const UpcomingPrograms = styled.div`
       background-attachment: fixed;
       left: 0;
       width: 100%;
-      height: 122vh;
+      height: 90vh;
       /* background-color: rgba(0,0,0,0.5); */
       z-index: -1;
     }
@@ -167,16 +187,23 @@ const NoticeBoard = styled.div`
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(30px);
     padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 60px;
+    border-radius: 10px;
     /* z-index: 5; */
 
-    > h1 {
+    > p {
       color: white;
       font-family: "Montserrat", sans-serif;
-      font-size: 54px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 400;
       cursor: pointer;
       letter-spacing: 1.5px;
       padding-top: 30px;
+    }
+
+    > p span {
+      color: #FFCB05;
     }
 
     @media only screen and (min-device-width : 50px) and (max-device-width : 932px){
@@ -190,7 +217,7 @@ const NoticeText = styled.div`
     /* align-items: center; */
     justify-content: center;
     /* border: 1px solid #31302F; */
-    /* width: 500px; */
+    width: 500px;
     padding: 18vh;
     /* height: 100%; */
     /* width: 100%; */
@@ -227,9 +254,30 @@ const NoticeText = styled.div`
 `
 const ImageHolder = styled.div`
   padding-right: 50px;
+  flex: 1;
+  > img {
+    width: 100%;
+     height: 100%;
+  }
+
+  @media only screen (max-device-width : 932px){
+    > img {
+      width: 400px;
+      height: 400px;
+    }
+
+  @media only screen (max-device-width : 768px){
+    > img {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
+  }
 `
 const ImageTextContainer = styled.div`
   justify-content: space-between;
+  flex: 1;
   /* border: 1px solid black; */
   flex-direction: column;
   
@@ -254,7 +302,7 @@ const ImageTextContainer = styled.div`
 
   > p {
       color: #343a40;
-      font-size: 1.1rem;
+      font-size: 100%;
   }
 `
 

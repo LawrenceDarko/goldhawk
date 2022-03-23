@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const MediaComponent = () => {
+const MediaComponent = ({color, imgLinkTwo, BannerTwoTitle, BannerTwoBody}) => {
   return (
-    <MediaItemContainer>
+    <MediaItemContainer color={color}>
         <MediaTextContainer>
             <Heading>
-                <h1>Media</h1>
+                <h1>{BannerTwoTitle}</h1>
             </Heading>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus a, accusamus fugit aspernatur nobis nulla iure, asperiores, pariatur voluptatum at aperiam praesentium! Et corporis velit laborum eos molestias repellat accusamus?</p>
+            <p>{BannerTwoBody}</p>
             <LearnMoreContainer>
-                <LearnMoreButton>Learn More</LearnMoreButton>
+                <LearnMoreButton>Learn More Lorem</LearnMoreButton>
             </LearnMoreContainer>
         </MediaTextContainer>
         <MediaImageHolder>
-            <img priority={true} src="/caro.jpg" alt="media" width={550} height={380} />
+            <img priority={true} src={`/images/${imgLinkTwo}`} alt="media" width={400} height={270} />
         </MediaImageHolder>
     </MediaItemContainer>
   )
@@ -24,8 +24,8 @@ export default MediaComponent;
 
 const MediaItemContainer = styled.div`
     width: auto;
-    height: auto;
-    background-color: #333;
+    height: 280px;
+    background-color: ${props => props.color? props.color : '#333'};
     display: flex;
     flex-direction: row;
     padding-left: 20px;
@@ -56,7 +56,7 @@ const MediaTextContainer = styled.div`
         font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         color: #fff;
-        padding-top: 20px;
+        /* padding-top: 20px; */
 
     }
 
@@ -69,14 +69,14 @@ const MediaTextContainer = styled.div`
     
 `
 const Heading = styled.div`
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 
     > h1 {
-        font-size: 40px;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 400;
         font-family: 'Open Sans', sans-serif;
         color: white;
-        margin-block-end: 0.3em;
+        margin-block-end: 0em;
         /* border-bottom: 1px solid white; */
     }
 `

@@ -14,7 +14,7 @@ const OtherPagesCarousel = ({title}) => {
 export default OtherPagesCarousel;
 
 const PageHeaderImageContainer = styled.div`
-    height: 20vh;
+    height: 15vh;
     background-color: #333;
     display: flex;
     flex-direction: column;
@@ -25,12 +25,12 @@ const PageHeaderImageContainer = styled.div`
     /* border: 1px solid white; */
 
     /* background-image: url("/caro.jpg"); */
-    background-image: linear-gradient(rgba(255, 183, 51, 0.4), rgba(0,0,0, 0.8)), url("/caro.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0, 0.8)), url("/caros.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* object-fit: cover; */
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     line-height: 1.5;
 
     > h1 {

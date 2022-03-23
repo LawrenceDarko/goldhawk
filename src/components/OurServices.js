@@ -44,66 +44,80 @@ const OurServices = () => {
               disableOnInteraction: false,
           }}
           // modules={[Autoplay, Pagination, Navigation]}
-          slidesPerView={4}
+          slidesPerView={3}
           centeredSlides={true}
-          style={{ height: "380px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
+          style={{ height: "400px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
           className="sliderContainer"
         >
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/1.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a1.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 1
+            <SlideTextContainer>
+              <h3>Mineral Resource Estimation</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/2.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a2.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 2
+            <SlideTextContainer>
+              <h3>Alluvial Gold Prospecting</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/3.png)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a3.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 3
+            <SlideTextContainer>
+              <h3>Gold Bullion Purchase</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/4.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a4.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 4
+            <SlideTextContainer>
+              <h3>Metal Detecting</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/5.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a5.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 5
+            <SlideTextContainer>
+              <h3>Tenement Management</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/6.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a6.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 6
+            <SlideTextContainer>
+              <h3>Technical Due Diligence</h3>
+            </SlideTextContainer>
           </SwiperSlide>
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/7.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/a7.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
-            Slide 7
+            <SlideTextContainer>
+              <h3>Mineral Resource Estimation</h3>
+            </SlideTextContainer>
           </SwiperSlide>
         </Swiper>
   </ServicesCarousel>
@@ -126,9 +140,9 @@ const ServicesCarousel = styled.div`
     padding: 50px;
 
     /* width: 100%; */
-    background-color:  #f63309;
+    background-color: #d42701;
 
-    background-image: linear-gradient(rgba( 55, 55, 55, 1), rgba(55, 55, 55, 1)), url("/images/tech.png");
+    /* background-image: linear-gradient(rgba( 55, 55, 55, 0.5), rgba(55, 55, 55, 0.5)), url("/images/tech.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,7 +173,23 @@ const OurServicesTextContainer = styled.div`
         font-size: 25px;
         font-weight: 300;
         font-family: 'Open Sans', sans-serif;
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
+`
+const SlideTextContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    margin: 20px;
+    margin-top: 150px;
+    background-color: #fff;
+    cursor: pointer;
 `
 
 

@@ -133,6 +133,8 @@ const WhoWeAre = styled.div`
 `
 
 const UpcomingPrograms = styled.div`
+    display: flex;
+    flex-direction: row;
     align-items: center;
     height: 90vh;
     /* width: 100%; */
@@ -164,22 +166,23 @@ const UpcomingPrograms = styled.div`
       color: white;
     }
 
-    @media only screen and (min-device-width : 50px) and (max-device-width : 932px){
+    @media only screen and (max-device-width : 768px){
         flex-direction: column;
-        align-items: left;
-        align-content: left;
-        justify-content: space-around;
+        align-items: center;
+        /* align-content: left; */
+        justify-content: center;
+
         /* padding: 50px; */
         
     }
     
 `
 const NoticeBoard = styled.div`
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;
-    justify-content: center; */
-    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     width: 400px;
     /* position: relative; */
     border: 1px solid #31302F;
@@ -206,9 +209,15 @@ const NoticeBoard = styled.div`
       color: #FFCB05;
     }
 
-    @media only screen and (min-device-width : 50px) and (max-device-width : 932px){
-        width: 80%;
-        height: 60%;
+    @media only screen and (min-device-width : 0px) and (max-device-width : 932px){
+        width: auto;
+        height: auto;
+        /* display: flex; */
+        margin-left: 12%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20%;
+        
     }
 `
 const NoticeText = styled.div`

@@ -14,18 +14,18 @@ const OtherPagesCarousel = ({title}) => {
 export default OtherPagesCarousel;
 
 const PageHeaderImageContainer = styled.div`
-    height: 15vh;
+    height: 18vh;
     background-color: #333;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     padding: 20vh;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* border: 1px solid white; */
 
     /* background-image: url("/caro.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0, 0.8)), url("/caros.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0, 0.9)), url("/caros.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* object-fit: cover; */

@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link to="/projects">Projects</Link>
                 <Link to="/media">Media</Link>
                 <Link to="/partnerships">Partnerships</Link>
-                <Link to="/team">OurTeam</Link>
+                <Link to="/contact">Contact</Link>
             </NavLinks>
             {/* <Burger /> */}
             <OpenLinksButton humberglogic={isOpen} onClick={()=> {setIsOpen(!isOpen)}}>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link to="/projects">Projects</Link>
                     <Link to="/media">Media</Link>
                     <Link to="/partnerships">Partnerships</Link>
-                    <Link to="/team">OurTeam</Link>
+                    <Link to="/contact">Contact</Link>
                 </NavbarHumburgerContainer>
             )}
         </NavbarContainer>
@@ -132,17 +132,17 @@ const NavbarHumburgerContainer = styled.div`
         margin-right: 0px;
         margin-top: 0px;
         padding-top: 50px;
-        background-color: #333;
+        background-color: #fff;
         /* color: #fff; */
         opacity: 0.95;
-        overflow: scroll !important;
+        overflow-y: scroll !important;
 
         
         /* transform: translate(-0%, -0%); */
 
         > a {
             text-decoration: none;
-            color: #fff;
+            color: #333;
             padding-bottom: 3rem;
         }
         

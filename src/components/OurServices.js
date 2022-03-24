@@ -46,7 +46,7 @@ const OurServices = () => {
           // modules={[Autoplay, Pagination, Navigation]}
           slidesPerView={3}
           centeredSlides={true}
-          style={{ height: "350px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
+          style={{ height: "320px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
           className="sliderContainer"
         >
           <SwiperSlide className="theSwiper"
@@ -188,7 +188,7 @@ const SlideTextContainer = styled.div`
     width: 90%;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 80%;
+    margin-top: 40%;
     background-color: #fff;
     cursor: pointer;
 `

@@ -191,6 +191,11 @@ const SlideTextContainer = styled.div`
     margin-top: 50%;
     background-color: #fff;
     cursor: pointer;
+    opacity: 0.8;
+
+    &:hover {
+        opacity: 1;
+    }
 
     > h3 {
         color: #c48d3a;

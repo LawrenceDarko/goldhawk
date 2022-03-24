@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Partnerships | Carisca Lab</title>
+        <title>Services | Goldhawkgeo-consult</title>
         <meta name="description" content="Partnerships Page of the Carisca Lab"/>
         <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
         <meta name="author" content="Baah Lawrence Darko"/>
@@ -75,17 +75,17 @@ const SponsorshipsTextContainer = styled.div`
     /* padding-bottom: 50px; */
 
     > h1 {
-        color: #FFB733;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     > h2 {
         color: white;
         font-size: 25px;
-        font-weight: 300;
-        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
         /* margin-block-start: 0em; */
     }
 `

@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <>
       <Helmet>
-        <title>Projects | Carisca Lab</title>
+        <title>Projects | Goldhawkgeo-consult</title>
         <meta name="description" content="Projects Page of the Carisca Lab"/>
         <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
         <meta name="author" content="Baah Lawrence Darko"/>
@@ -94,17 +94,17 @@ const OurProjectsTextContainer = styled.div`
   padding-right: 13vh;
 
   > h1 {
-        color: #333;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
   > p {
       color: #333;
       font-size: 20px;
       font-weight: 300;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
   }
 
   @media only screen and (min-device-width : 50px) and (max-device-width : 768px){

@@ -68,7 +68,7 @@ const FooterOne = styled.div`
     flex: 0.3;
 
     > h2 {
-        color: #FFB733;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
@@ -89,7 +89,7 @@ const FooterTwo = styled.div`
     flex: 0.4;
 
     > h2 {
-        color: #FFB733;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
@@ -107,7 +107,7 @@ const FooterThree = styled.div`
     flex: 0.3;
 
     > h2 {
-        color: #FFB733;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;

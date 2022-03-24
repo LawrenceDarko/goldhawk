@@ -197,7 +197,7 @@ const NoticeBoard = styled.div`
 
     > p {
       color: white;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 15px;
       font-weight: 400;
       cursor: pointer;
@@ -206,7 +206,7 @@ const NoticeBoard = styled.div`
     }
 
     > p span {
-      color: #FFCB05;
+      color: #c48d3a;
     }
 
     @media only screen and (min-device-width : 0px) and (max-device-width : 932px){
@@ -235,17 +235,17 @@ const NoticeText = styled.div`
     > h2 {
         /* color: white; */
         font-size: 30px;
-        font-weight: 600;
-        color: #FFB733;
-        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #c48d3a;
+        font-family: 'Roboto', sans-serif;
 
     }
 
     > p {
         color: white;
         font-size: 25px;
-        font-weight: 300;
-        font-family: 'Open Sans', sans-serif;
+        /* font-weight: 200; */
+        font-family: 'Roboto', sans-serif;
     }
 
     @media only screen and (min-device-width : 0px) and (max-device-width : 932px){
@@ -311,13 +311,14 @@ const ImageTextContainer = styled.div`
 
   > h4 {
       font-size: 1.2rem;
-      color: #FFAA17;
+      color: #c48d3a;
       line-height: 1.5rem;
   }
 
   > p {
       color: #343a40;
       font-size: 100%;
+      font-family: "Roboto", sans-serif;
   }
 `
 

@@ -42,12 +42,13 @@ const ImageContainer = styled.div`
     /* overflow: hidden; */
 
     /* background-image: url("/caro.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/head3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/caros4.jpg");
     /* background-color: #FFAA17; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    /* object-fit: cover; */
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -89,7 +90,7 @@ const CarouselTextContainer = styled.div`
 
     > h1 {
         /* color: #e96b15; */
-        color: #D6CEBF;
+        color: #c48d3a;
         font-size: 65px;
         font-family: 'Oswald', sans-serif;
         line-height: 1;

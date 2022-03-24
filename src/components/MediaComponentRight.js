@@ -53,8 +53,8 @@ const MediaTextContainer = styled.div`
     > p {
         font-size: 1.2rem;
         line-height: 1.5;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
         color: #fff;
         /* padding-top: 20px; */
 
@@ -72,11 +72,12 @@ const Heading = styled.div`
     /* border-bottom: 2px solid white; */
 
     > h1 {
-        font-size: 20px;
-        font-weight: 400;
-        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
         color: white;
         margin-block-end: 0em;
+        color: #c48d3a;
         /* border-bottom: 1px solid white; */
     }
 `

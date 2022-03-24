@@ -34,7 +34,7 @@ const PageHeaderImageContainer = styled.div`
     line-height: 1.5;
 
     > h1 {
-        color: #fff;
+        color: #c48d3a;
         font-size: 2.5rem;
         line-height: 1;
         font-weight: 800;

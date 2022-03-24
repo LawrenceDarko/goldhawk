@@ -65,17 +65,17 @@ const AboutText = styled.div`
     /* padding-top: 10vh; */
 
     > h1 {
-        color: #333;
+        color: #c48d3a;
         font-size: 30px;
         font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     > p {
         color: #333;
         font-size: 20px;
         font-weight: 300;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
 

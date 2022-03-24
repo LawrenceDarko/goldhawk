@@ -71,7 +71,7 @@ const PageWrapper = styled.div`
   > h2 {
     color: #333;
     font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -95,16 +95,19 @@ const GalleryImagesContainer = styled.div`
   > h4 {
     padding-block-end: 0em;
     margin-block-end: 0em;
-    color: #333;
+    color: #c48d3a;
+    font-family: 'Roboto', sans-serif;
   }
 
   > p {
     padding-block-start: 0em;
     margin-block-start: 0em;
     color: #333;
+    font-family: 'Roboto', sans-serif;
   }
 
   > p > span {
     font-weight: 700;
+    color: #c48d3a;
   }
 `

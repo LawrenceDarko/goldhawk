@@ -121,7 +121,7 @@ const NavLinks = styled.div`
         font-family: 'Noto Sans', sans-serif;
 
         &:hover {
-            color: #fd7e14;
+            color: #c48d3a;
             /* font-size: 20px; */
             /* border-bottom: 5px solid #66a3a3; */
 

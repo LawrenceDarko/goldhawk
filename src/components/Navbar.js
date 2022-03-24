@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
         <NavbarContainer className='navbar'>
             <NavLogo>
-                <Link to="/"><img priority={true} className='NavbarImage' src="/logo.png" width="100px" height="50px" alt='Logo' /></Link>
+                <Link to="/"><img className='NavbarImage' src="/logo.png" alt='Logo' /></Link>
             </NavLogo>
                 {/* <Burger /> */}
             <NavLinks>
@@ -72,9 +72,19 @@ const NavbarContainer = styled.div`
 const NavLogo = styled.div`
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 15px;
     padding-top: 10px;
-     /* border: 1px solid black; */
+    height: 65%;
+    width: 63px;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+    > a img {
+        width: 65px;
+        height: 43px;
+    }
 
     @media (max-width: 768px) {
         > img {

@@ -248,8 +248,14 @@ const NoticeText = styled.div`
         font-family: 'Open Sans', sans-serif;
     }
 
-    @media only screen and (min-device-width : 50px) and (max-device-width : 932px){
+    @media only screen and (min-device-width : 0px) and (max-device-width : 932px){
         width: 80%;
+        height: auto;
+        padding-right: 0px;
+        padding-left: 20px;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+
         > h2 {
             font-size: 20px;
 

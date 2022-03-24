@@ -83,7 +83,7 @@ const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #403F3E;
+  background-color: #fff;
 `
 const OurProjectsTextContainer = styled.div`
   display: flex;

@@ -20,11 +20,6 @@ const About = () => {
       <OtherPagesCarousel title ={Title} />
       <PageWrapper>
           <AboutText>
-            <h1>Introduction</h1>
-            <p>The digital revolution is not only here, but it is also accelerating every day. Advances in automation, the digitisation of information, unprecedented access to data and the democratisation of knowledge are transforming every sector of our economy – from healthcare to transportation to energy and beyond. The scope, scale, and ubiquity of these disruptions are truly unprecedented. As we embrace this tech-driven economy, universities must also change at an equal rate to adequately utilise this transformation. While universities retain their core mission of educating the next generation and cultivating new forms of knowledge, they must however, focus on their everexpanding role in driving innovation and catalysing economic development.</p>
-        
-            
-
             <h1>Our Mission</h1>
             <p>To leverage Ghana's foremost position in gold production in Africa and in the global mining space to provide geological and mining support services to miners and prospective investors, all while bridging the technical information gap particularly in the informal mining sector.</p>
             
@@ -78,7 +73,7 @@ const AboutText = styled.div`
 
     > p {
         color: #333;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 300;
         font-family: 'Open Sans', sans-serif;
     }

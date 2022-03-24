@@ -92,13 +92,13 @@ const LearnMoreContainer = styled.div`
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* border: 1px solid white; */
+    /* border: 1px solid red; */
     width: 200px;
 
 `
 
 const LearnMoreButton = styled.button`
-    background-color: #333;
+    background-color: #c48d3a;
     border: 1px solid #fff;
     color: #fff;
     font-size: 1.2rem;

@@ -94,7 +94,7 @@ const LearnMoreContainer = styled.div`
 `
 
 const LearnMoreButton = styled.button`
-    background-color: #333;
+    background-color: #c48d3a;
     border: 1px solid #fff;
     color: #fff;
     font-size: 1.2rem;

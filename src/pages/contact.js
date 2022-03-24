@@ -26,7 +26,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact | Goldhawkgeo-consult</title>
         <meta name="description" content="contact Page of the Goldhawkgeo-consult"/>
-        <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
+        <meta name="keywords" content="gold, goldhawk, goldhawkgeo, goldhawkgeoconsult, consession, mining, gold bullion"/>
         <meta name="author" content="Baah Lawrence Darko"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Helmet>

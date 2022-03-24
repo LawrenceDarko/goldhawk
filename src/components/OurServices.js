@@ -46,7 +46,7 @@ const OurServices = () => {
           // modules={[Autoplay, Pagination, Navigation]}
           slidesPerView={3}
           centeredSlides={true}
-          style={{ height: "400px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
+          style={{ height: "350px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
           className="sliderContainer"
         >
           <SwiperSlide className="theSwiper"

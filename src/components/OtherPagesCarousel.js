@@ -25,12 +25,12 @@ const PageHeaderImageContainer = styled.div`
     /* border: 1px solid white; */
 
     /* background-image: url("/caro.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0, 0.9)), url("/caros.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0, 0.9)), url("/images/head4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* object-fit: cover; */
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     line-height: 1.5;
 
     > h1 {

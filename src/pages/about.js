@@ -20,7 +20,7 @@ const About = () => {
       <OtherPagesCarousel title ={Title} />
       <PageWrapper>
           <AboutText>
-            <h1>Our Mission</h1>
+            <h1>Our Mission</h1><hr/>
             <p>To leverage Ghana's foremost position in gold production in Africa and in the global mining space to provide geological and mining support services to miners and prospective investors, all while bridging the technical information gap particularly in the informal mining sector.</p>
             
 
@@ -60,12 +60,12 @@ const AboutText = styled.div`
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
     /* padding-top: 10vh; */
 
     > h1 {
-        color: #FC8D09;
+        color: #333;
         font-size: 30px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
@@ -77,6 +77,8 @@ const AboutText = styled.div`
         font-weight: 300;
         font-family: 'Open Sans', sans-serif;
     }
+
+
 
     @media only screen and (min-device-width : 50px) and (max-device-width : 932px){
       padding-left: 5vh;

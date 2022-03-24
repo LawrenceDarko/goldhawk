@@ -5,9 +5,9 @@ import OtherPagesCarousel from '../components/OtherPagesCarousel';
 import Footer from '../components/Footer';
 import {Helmet} from 'react-helmet'
 
-const Partnerships = () => {
+const Services = () => {
 
-  const Title = "Partnerships"
+  const Title = "Services"
 
   return (
     <>
@@ -43,7 +43,7 @@ const Partnerships = () => {
   )
 };
 
-export default Partnerships;
+export default Services;
 
 const PageWrapper = styled.div`
     width: 100%;

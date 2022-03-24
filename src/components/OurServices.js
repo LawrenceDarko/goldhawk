@@ -183,11 +183,11 @@ const SlideTextContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     height: auto;
     width: 90%;
     margin: 20px;
-    margin-top: 200px;
+    margin-top: 40%;
     background-color: #fff;
     cursor: pointer;
 `

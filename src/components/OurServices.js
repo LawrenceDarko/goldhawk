@@ -191,6 +191,10 @@ const SlideTextContainer = styled.div`
     margin-top: 50%;
     background-color: #fff;
     cursor: pointer;
+
+    > h3 {
+        color: #c48d3a;
+    }
 `
 
 

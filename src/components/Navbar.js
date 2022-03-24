@@ -60,7 +60,11 @@ const NavbarContainer = styled.div`
     /* overflow: hidden; */
     background-color: #fff;
     height: 80px;
-    opacity: 0.9;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+    }
     /* width: 218.5vh; */
     /* border: 1px solid black; */
 
@@ -116,12 +120,14 @@ const NavLinks = styled.div`
         /* margin-top: 25px; */
         text-decoration: none;
         color: #222429;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 400;
         font-family: 'Noto Sans', sans-serif;
+        text-transform: uppercase;
+    }
 
         &:hover {
-            color: #c48d3a;
+            color: #c48d3a !important;
             /* font-size: 20px; */
             /* border-bottom: 5px solid #66a3a3; */
 

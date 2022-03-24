@@ -188,7 +188,7 @@ const SlideTextContainer = styled.div`
     width: 90%;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 60%;
+    margin-top: 80%;
     background-color: #fff;
     cursor: pointer;
 `

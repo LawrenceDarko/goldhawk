@@ -94,14 +94,14 @@ const OurProjectsTextContainer = styled.div`
   padding-right: 13vh;
 
   > h1 {
-        color: #FFB733;
+        color: #333;
         font-size: 30px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
     }
 
   > p {
-      color: white;
+      color: #333;
       font-size: 25px;
       font-weight: 300;
       font-family: 'Open Sans', sans-serif;

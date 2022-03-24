@@ -102,7 +102,7 @@ const OurProjectsTextContainer = styled.div`
 
   > p {
       color: #333;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 300;
       font-family: 'Open Sans', sans-serif;
   }

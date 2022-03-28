@@ -115,12 +115,11 @@ const SponsorshipsTextContainer = styled.div`
         font-family: 'Roboto', sans-serif;
     }
 
-    > h2 {
-        color: white;
-        font-size: 25px;
-        font-weight: 100;
-        font-family: 'Roboto', sans-serif;
-        /* margin-block-start: 0em; */
+    @media (max-width: 768px) {
+        > h1 {
+            font-size: 25px;
+            white-space: nowrap;
+        }
     }
 `
 const SponsorshipsLogosContainer = styled.div`
@@ -137,6 +136,13 @@ const SponsorshipsLogosContainer = styled.div`
     margin: 30px 20px 50px;
     /* align-items: center; */
     /* border: 1px solid black; */
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin: 30px 20px 50px;
+
+    }
+
 `
 const PresentAndPastSponsorshipsContainer = styled.div`
     width: auto;
@@ -258,6 +264,11 @@ const BigCard = styled.div`
     background-color: #fff;
     /* add shadows */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media (max-width: 768px) {
+       flex-direction: column;
+        /* width: 90%; */
+    }
 `
 const ImageContainer = styled.div`
     width: 50%;
@@ -265,8 +276,24 @@ const ImageContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 1px solid black; */
 
     > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 0px; */
+
+      > img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -301,8 +328,21 @@ const ImageTextContainer = styled.div`
         /* font-family: 'Roboto', sans-serif; */
         /* margin-block-start: 0em; */
         text-align: left;
+    }
 
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
 
+        > p {
+            text-align: center;
+        }
     }
 
 `
@@ -337,6 +377,18 @@ const SmallCard = styled.div`
         letter-spacing: 0.5px;
 
 
+    }
+
+    @media (max-width: 768px) {
+        width: auto;
+
+        > h3 {
+            font-size: 25px;
+        }
+
+        > p {
+            font-size: 10px;
+        }
     }
 `
 const WhiteSpace = styled.div`
@@ -380,6 +432,14 @@ const CommentContainer = styled.div`
     /* align-items: center; */
     width: auto;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
 `
 
 const CommentImage = styled.div`
@@ -415,5 +475,21 @@ const CommentText = styled.div`
         font-weight: 400;
         padding-block-end: 0em;
         margin-block-end: 0em;
+    }
+
+    @media (max-width: 768px) {
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+
+        > h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        > p {
+            text-align: center;
+        }
     }
 `

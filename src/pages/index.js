@@ -320,5 +320,12 @@ const ImageTextContainer = styled.div`
       font-size: 100%;
       font-family: "Roboto", sans-serif;
   }
+
+  @media only screen and (min-device-width : 0px) and (max-device-width : 768px){
+    > h1 {
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+    }
+  }
 `
 

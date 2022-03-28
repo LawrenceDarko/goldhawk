@@ -22,7 +22,7 @@ const Footer = () => {
             </FooterThree>
         </FooterContainer>
         <FinalFooter>
-            <p>©Copyright 2022, goldhawgeoconsult - All Rights Reserved</p>
+            <p>©Copyright 2022, goldhawkgeoconsult - All Rights Reserved</p>
         </FinalFooter>
     </>
   )

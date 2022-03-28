@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
 import OtherPagesCarousel from '../components/OtherPagesCarousel';
-import TheProjects from '../components/TheProjects';
+// import TheProjects from '../components/TheProjects';
 import {Helmet} from 'react-helmet'
 
 

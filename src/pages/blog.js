@@ -9,7 +9,7 @@ import {Helmet} from 'react-helmet'
 
 const Blog = () => {
 
-  const Title = "Projects"
+  const Title = "Blogs"
 
   // const red = "#d42701"
   // const orange = "#e06804"

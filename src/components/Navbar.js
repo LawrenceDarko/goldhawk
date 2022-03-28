@@ -20,9 +20,9 @@ const Navbar = () => {
             <NavLinks>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
+                <Link to="/services">Services</Link>
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/media">Media</Link> */}
-                <Link to="/services">Services</Link>
                 <Link to="/contact">Contact</Link>
             </NavLinks>
             {/* <Burger /> */}
@@ -124,7 +124,6 @@ const NavLinks = styled.div`
         font-weight: 400;
         font-family: 'Noto Sans', sans-serif;
         text-transform: uppercase;
-    }
 
         &:hover {
             color: #c48d3a !important;

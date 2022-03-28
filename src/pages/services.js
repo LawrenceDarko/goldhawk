@@ -23,20 +23,54 @@ const Services = () => {
       <PageWrapper>
          <SponsorshipsContainer>
             <SponsorshipsTextContainer>
-              <h1>Our Sponsors and Partners</h1>
-              <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ducimus tempora reprehenderit soluta quidem! Ipsam non eum ab in veritatis, iste accusamus beatae totam quos dolores omnis ratione doloribus tempore.</h2>
+              <h1>Professional Services</h1>
             </SponsorshipsTextContainer>
             <SponsorshipsLogosContainer>
-                <img src="/sponsors/asu.png" width={400} height={110} alt="" />
-                <img src="/sponsors/usaid.png" width={320} height={110} alt="" />
-                <img src="/sponsors/knust.png" width={270} height={100} alt="" />
-                {/* <Image src="/sponsors/carisca.jpg" width={290} height={110} /> */}
-                
+                <RowElementOne>
+                  <h3>Personalized Services</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae vel ducimus accusamus praesentium officiis quasi dolorem ipsa autem voluptate tempora voluptatem quo recusandae rem illo </p>
+                </RowElementOne>
+                <RowElementTwo>
+                  <h3>Expertise</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, quasi, hic distinctio vero ea rem possimus harum ipsa reiciendis, illum unde nobis blanditiis odio earum obcaecati voluptatem temporibus necessitatibus adipisci.</p>
+                </RowElementTwo>
+                <RowElementThree>
+                  <h3>Impact</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In repudiandae, eius ducimus debitis necessitatibus sint animi provident, id ipsum repellat similique perspiciatis deleniti harum sit aliquid quisquam hic reiciendis cumque.</p>
+                </RowElementThree>
             </SponsorshipsLogosContainer>
          </SponsorshipsContainer>
          <PresentAndPastSponsorshipsContainer>
-            {/* <h1>Present and Past Sponsorships</h1> */}
+            <BigCard>
+              <ImageContainer>
+                <img src="/caros.jpg" alt="Services"/>
+              </ImageContainer>
+              <ImageTextContainer>
+                <h3>Professional Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae vel ducimus accusamus praesentium officiis quasi dolorem ipsa autem voluptate tempora voluptatem quo recusandae rem illo </p>
+              </ImageTextContainer>
+            </BigCard>
          </PresentAndPastSponsorshipsContainer>
+         <SmallCard>
+           <h3>"The PS team was great! They navigate through tough situations with expertise and support. It is my opinion that they are largest contributor to why I would recommend the program."</h3>
+           <p>Mr. Edmund Akando</p>
+           <p>Director, GoldHawk Geoconsult</p>
+         </SmallCard>
+         <WhiteSpace>
+           <InsightContainer>
+              <h3>Insight</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae vel ducimus accusamus praesentium officiis quasi dolorem ipsa autem voluptate tempora voluptatem quo recusandae rem illo </p>
+           </InsightContainer>
+           <CommentContainer>
+              <CommentImage>
+                <img src="/co.jpg" alt="Services"/>
+              </CommentImage>
+              <CommentText>
+                <h3>Professional Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae vel ducimus accusamus praesentium officiis quasi dolorem ipsa autem voluptate tempora voluptatem quo recusandae rem illo </p>
+              </CommentText>
+           </CommentContainer>
+         </WhiteSpace>
          <Footer />
       </PageWrapper>
     </>
@@ -48,7 +82,7 @@ export default Services;
 const PageWrapper = styled.div`
     width: 100%;
     /* height: 100vh; */
-    background-color: #403F3E;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     padding-top: 0px;
@@ -94,24 +128,292 @@ const SponsorshipsLogosContainer = styled.div`
     /* height: 100%; */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* padding-left: 50px; */
-    padding-right: 50px;
-    justify-content: space-evenly;
-    padding-bottom: 100px;
+    /* padding-right: 60px; */
+    /* padding-left: 60px; */
+    /* justify-content: space-evenly; */
+    /* padding-bottom: 100px; */
+    margin: 30px 20px 50px;
     /* align-items: center; */
     /* border: 1px solid black; */
 `
 const PresentAndPastSponsorshipsContainer = styled.div`
     width: auto;
-    /* height: 100%; */
+    height: 85vh;
+    background-color: #52b1ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
+    /* padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+    
+`
+const RowElementOne = styled.div`
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
     
+    /* border: 1px solid black; */
+    
+    /* border: 1px solid black; */
+
+    > h3 {
+        color: #c48d3a;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        white-space: nowrap;
+
+    }
+
+    > p {
+        color: #333;
+        /* font-size: 20px; */
+        /* font-weight: 100; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* margin-block-start: 0em; */
+        text-align: center;
+        margin-block-start: 0em;
+        padding-block-start: 0em;
+    }
+    /* border: 1px solid black; */
+
+`
+const RowElementTwo = styled.div`
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 1px solid black; */
+
+    > h3 {
+        color: #c48d3a;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    > p {
+        color: #333;
+        /* font-size: 20px; */
+        /* font-weight: 100; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* margin-block-start: 0em; */
+        text-align: center;
+        margin-block-start: 0em;
+        padding-block-start: 0em;
+    }
+`
+const RowElementThree = styled.div`
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 1px solid black; */
+
+    > h3 {
+        color: #c48d3a;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    > p {
+        color: #333;
+        /* font-size: 20px; */
+        /* font-weight: 100; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* margin-block-start: 0em; */
+        text-align: center;
+        margin-block-start: 0em;
+        padding-block-start: 0em;
+    }
+`
+const BigCard = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    /* add shadows */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+`
+const ImageContainer = styled.div`
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+`
+
+const ImageTextContainer = styled.div`
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 15px;
+    padding-right: 15px;
+
+    > h3 {
+        color: #c48d3a;
+        font-size: 20px;
+        font-weight: 600;
+        /* font-family: 'Roboto', sans-serif; */
+        white-space: nowrap;
+        margin-block-end: 0em;
+        text-align: left;
+    }
+
+    > p {
+        color: #333;
+        font-size: 14px;
+        line-height: 1.5;
+        /* font-weight: 100; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* margin-block-start: 0em; */
+        text-align: left;
+
+
+    }
+
+`
+const SmallCard = styled.div`
+    width: auto;
+    height: 65vh;
+    background-color: #00bfa5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 1px solid black; */
+
+    > h3 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 300;
+        /* font-family: 'Roboto', sans-serif; */
+        /* white-space: nowrap; */
+        text-align: center;
+    }
+
+    > p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        padding-block-end: 0em;
+        margin-block-end: 0em;
+        line-height: 0.5;
+        letter-spacing: 0.5px;
+
+
+    }
+`
+const WhiteSpace = styled.div`
+    width: auto;
+    height: auto;
+    background-color: #fff;
+`
+
+const InsightContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 45vh;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    > h3 {
+        color: #c48d3a;
+        font-size: 30px;
+        font-weight: 200;
+        margin-block-end: 0em;
+
+    }
+
+    > p {
+        color: #333;
+        font-size: 18px;
+        font-weight: 400;
+        padding-block-end: 0em;
+        /* margin-block-end: 0em; */
+    }
+`
+
+const CommentContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    width: auto;
+
+`
+
+const CommentImage = styled.div`
+    width: 50%;
+    /* border: 1px solid black; */
+
+    > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+`
+const CommentText = styled.div`
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+    > h3 {
+        font-size: 30px;
+        color: #c48d3a;
+        font-weight: 200;
+        margin-block-end: 0em;
+        /* font-family: 'Roboto', sans-serif; */
+        white-space: nowrap;
+    }
+
+    > p {
+        color: #333;
+        font-size: 18px;
+        font-weight: 400;
+        padding-block-end: 0em;
+        margin-block-end: 0em;
+    }
 `

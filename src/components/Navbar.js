@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/services">Services</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="/blog">Blog</Link>
                 {/* <Link to="/media">Media</Link> */}
                 <Link to="/contact">Contact</Link>
             </NavLinks>
@@ -33,9 +33,9 @@ const Navbar = () => {
                 <NavbarHumburgerContainer>
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    {/* <Link to="/media">Media</Link> */}
                     <Link to="/services">Services</Link>
+                    <Link to="/blog">Blog</Link>
+                    {/* <Link to="/media">Media</Link> */}
                     <Link to="/contact">Contact</Link>
                 </NavbarHumburgerContainer>
             )}

@@ -313,8 +313,9 @@ const ImageTextContainer = styled.div`
 
     > h3 {
         color: #c48d3a;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 30px;
+        font-weight: 200;
+        /* margin-block-end: 0em; */
         /* font-family: 'Roboto', sans-serif; */
         white-space: nowrap;
         margin-block-end: 0em;

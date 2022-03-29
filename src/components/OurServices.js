@@ -2,7 +2,7 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import styled from "styled-components"
-import SwiperCore, { Autoplay, Navigation, Pagination, EffectCoverflow} from "swiper"
+// import SwiperCore, { Autoplay, Navigation, Pagination, EffectCoverflow} from "swiper"
 import 'swiper/css';
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -17,8 +17,8 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-// import { EffectCoverflow, Pagination } from "swiper";
-SwiperCore.use([Autoplay, Navigation, Pagination, EffectCoverflow]);
+import { EffectCoverflow, Pagination, Autoplay, Navigation, } from "swiper";
+// SwiperCore.use([Autoplay, Navigation, Pagination, EffectCoverflow]);
 
 const OurServices = () => {
   return (
@@ -30,7 +30,8 @@ const OurServices = () => {
         <Swiper
           navigation
           pagination={{ clickable: true }}
-          effect="coverflow"
+          effect={"coverflow"}
+          
           coverflowEffect={{
             rotate: 20,
             stretch: 0,
@@ -43,10 +44,26 @@ const OurServices = () => {
               delay: 1500,
               disableOnInteraction: false,
           }}
-          // modules={[Autoplay, Pagination, Navigation]}
-          slidesPerView={3}
+          modules={[EffectCoverflow, Autoplay, Pagination, Navigation]}
+          slidesPerView= {1}
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              // width: 640,
+              slidesPerView: 2,
+              
+            },
+            // when window width is >= 768px
+            768: {
+              // width: 768,
+              slidesPerView: 3,
+              // spaceBetween: 40,
+            },
+            // when window width is >= 1024px
+            
+          }}
           centeredSlides={true}
-          style={{ height: "320px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px'}}
+          style={{ height: "320px", width: "100%", position: 'relative', zIndex: 1, paddingBottom: '200px' }}
           className="sliderContainer"
         >
           <SwiperSlide className="theSwiper"

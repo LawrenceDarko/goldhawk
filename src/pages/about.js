@@ -10,9 +10,9 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About | Carisca Lab</title>
-        <meta name="description" content="About Page of the Carisca Lab"/>
-        <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
+        <title>About | Goldhawk Geoconsult</title>
+        <meta name="description" content="About Page of Goldhawk Geoconsult"/>
+        <meta name="keywords" content="goldhawk, geoconsult, gold, Goldhawk geoconsult, mining"/>
         <meta name="author" content="Baah Lawrence Darko"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Helmet>
@@ -74,8 +74,8 @@ const AboutText = styled.div`
     > p {
         color: #333;
         font-size: 20px;
-        font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-weight: 350;
+        /* font-family: 'Roboto', sans-serif; */
     }
 
 

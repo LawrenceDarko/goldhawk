@@ -24,8 +24,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Goldhawkgeo-consult</title>
-        <meta name="description" content="contact Page of the Goldhawkgeo-consult"/>
+        <title>Contact | Goldhawk Geoconsult</title>
+        <meta name="description" content="contact Page of the Goldhawk Geoconsult"/>
         <meta name="keywords" content="gold, goldhawk, goldhawkgeo, goldhawkgeoconsult, consession, mining, gold bullion"/>
         <meta name="author" content="Baah Lawrence Darko"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

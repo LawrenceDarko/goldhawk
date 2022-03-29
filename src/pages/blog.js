@@ -35,9 +35,9 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Projects | Goldhawkgeo-consult</title>
-        <meta name="description" content="Projects Page of the Carisca Lab"/>
-        <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
+        <title>Services | Goldhawk Geoconsult</title>
+        <meta name="description" content="Service Page of Goldhawk Geoconsult"/>
+        <meta name="keywords" content="goldhawk, geoconsult, gold, Goldhawk geoconsult, mining"/>
         <meta name="author" content="Baah Lawrence Darko"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Helmet>

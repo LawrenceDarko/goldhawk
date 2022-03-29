@@ -26,9 +26,9 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Home | Goldhawkgeo-consult</title>
-        <meta name="description" content="Homepage of the Carisca Lab"/>
-        <meta name="keywords" content="carisca, cariscalab, luminosity, knust, incubation lab, innovation, ksb"/>
+        <title>Home | Goldhawk Geoconsult</title>
+        <meta name="description" content="Homepage of the Goldhawk Geoconsult"/>
+        <meta name="keywords" content="goldhawk, geoconsult, gold, Goldhawk geoconsult, mining"/>
         <meta name="author" content="Baah Lawrence Darko"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Helmet>
@@ -78,6 +78,7 @@ export default Home;
 
 const BodyWrapper = styled.div`
     height: 100%;
+    width: auto;
     /* padding-left: 10vh;
     padding-right: 10vh; */
     /* background-color: #333; */

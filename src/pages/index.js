@@ -31,6 +31,13 @@ function Home() {
 
   const colorOne = "#00507b"
   const colorTwo = "#006c7b"
+  const colorThree = "#2A53AB"
+  const colorFour = "#00507b"
+  const colorFive = "#1A752C"
+  const colorSix = "#2A53AB"
+  const colorSeven = "#00507b"
+  const colorEight = "#006c7b"
+  const colorNine = "#00507b"
 
   const imgLinkOne = "index1.jpeg"
   const imgLinkTwo = "index2.jpg"
@@ -55,26 +62,26 @@ function Home() {
                 </ImageHolder>
                 <ImageTextContainer>
                   <h1>LEADING-EDGE GEOLOGICAL AND MINING CONSULTANCY FIRM IN GHANA</h1>
-                  <h4>CLITA ELITR ET AMET ET IPSUM SEA. IPSUM STET KASD EA ET NO EST DUO DIAM. LOREM DOLORES EOS UT NONUMY IPSUM SIT CLITA LOREM NO AMET DOLOR DOLORE, STET SIT DOLOR JUSTO.</h4>
-                  <p>Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero. Tempor ipsum at justo amet at ipsum justo. Aiam kasd sea sit dolor duo elitr dolor amet, justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores. Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor. Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.</p>
+                  <h4>At GoldHawk, we unlock and deliver value through discovery, replenishment, growth and expansion of mineral resource potential and inventories with formidable teams.</h4>
+                  <p>Having built versatility in Alluvial, Open-Pit and Underground Mining operations at various phases and in varying portfolios, we jockey for fresh and onerous responsibilities in fast-emerging, deadline-oriented settings where we can leverage our capabilities to make a meaningful and lasting impact!</p>
                 </ImageTextContainer>
                 
             </WhoWeAre>
             <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerOneTitle} BannerOneBody={BannerOneBody} />
             <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerTwoTitle} BannerTwoBody={BannerTwoBody} />
-            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerThreeTitle} BannerOneBody={BannerThreeBody} />
-            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerFourTitle} BannerTwoBody={BannerFourBody} />
-            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerFiveTitle} BannerOneBody={BannerFiveBody} />
-            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerSixTitle} BannerTwoBody={BannerSixBody} />
-            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerSevenTitle} BannerOneBody={BannerSevenBody} />
-            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerEightTitle} BannerTwoBody={BannerEightBody} />
-            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerNineTitle} BannerOneBody={BannerNineBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorThree} BannerOneTitle={BannerThreeTitle} BannerOneBody={BannerThreeBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorFour} BannerTwoTitle={BannerFourTitle} BannerTwoBody={BannerFourBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorFive} BannerOneTitle={BannerFiveTitle} BannerOneBody={BannerFiveBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorSix} BannerTwoTitle={BannerSixTitle} BannerTwoBody={BannerSixBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorSeven} BannerOneTitle={BannerSevenTitle} BannerOneBody={BannerSevenBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorEight} BannerTwoTitle={BannerEightTitle} BannerTwoBody={BannerEightBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorNine} BannerOneTitle={BannerNineTitle} BannerOneBody={BannerNineBody} />
             <OurServices />
             <UpcomingPrograms>
                 {/* This is the text in the notice board */}
                 <NoticeText>
                   <h2>This is who we are</h2>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, illo earum totam facere obcaecati alias eos ut ex recusandae deleniti labore laudantium quibusdam commodi error excepturi dolore libero itaque possimus?</p>
+                  <p>Vanguard geological and mining consultancy firm bringing the informal mining sector at par with the formal vis-a-vis geological knowledge and mining technical information.</p>
                 </NoticeText>
 
                 {/* This is the notice board */}
@@ -335,6 +342,7 @@ const ImageTextContainer = styled.div`
       font-size: 1.2rem;
       color: #c48d3a;
       line-height: 1.5rem;
+      text-transform: uppercase;
   }
 
   > p {

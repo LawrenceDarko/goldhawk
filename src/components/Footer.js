@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from "styled-components"
 
 const Footer = () => {
@@ -10,15 +11,23 @@ const Footer = () => {
                 <FooterLogoContainer>
                     <img priority={true} src="/logo.png" width="150px" height="60px" alt='footer' />
                 </FooterLogoContainer>
-                <p>We help companies focus on growth through innovation and disruptive technologies </p>
+                <p>What sets us apart from the throng is our result orientation and culture of excellence. </p>
             </FooterOne>
             <FooterTwo>
                 <h2>Quick Links</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti dolorem nisi, libero voluptas error nam qui voluptatum exercitationem praesentium, pariatur, alias recusandae facilis? Nisi ipsum sint illum ad officia!</p>
+                <Link to="/">&rarr; Home</Link>
+                <Link to="/about">&rarr; About</Link>
+                <Link to="/services">&rarr; Services</Link>
+                <Link to="/contact">&rarr; Contact</Link>
+                <Link to="/blog">&rarr; Blog</Link>
+
             </FooterTwo>
             <FooterThree>
                 <h2>Get In Touch</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cum, dolorum laboriosam aliquam animi assumenda tenetur velit hic, officia saepe inventore officiis necessitatibus distinctio rem itaque, voluptates voluptas perferendis architecto!</p>
+                <h4>Corporate Office:</h4>
+                <p>42 Achimota Golf Hills <br/>Accra, Ghana <br/></p>
+                {/* <h4>Corporate Office:</h4> */}
+                <p><span>Telephone:</span> (+233) 5930 13134 <br/>info@goldhawkgeoconsult.com</p>
             </FooterThree>
         </FooterContainer>
         <FinalFooter>
@@ -63,13 +72,14 @@ const FooterContainer = styled.div`
 const FooterOne = styled.div`
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
     /* justify-content: center; */
     /* width: 350px; */
     flex: 0.3;
 
     > h2 {
         color: #c48d3a;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
     }
@@ -84,19 +94,30 @@ const FooterOne = styled.div`
 const FooterTwo = styled.div`
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
     /* justify-content: center; */
     /* align-items: center; */
     flex: 0.4;
 
     > h2 {
         color: #c48d3a;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
     }
 
     > p {
         color: #bebebe;
+    }
+
+    > a {
+        color: #bebebe;
+        text-decoration: none;
+        /* font-size: 18px; */
+        /* font-weight: 300; */
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+
     }
 `
 const FooterThree = styled.div`
@@ -108,14 +129,36 @@ const FooterThree = styled.div`
 
     > h2 {
         color: #c48d3a;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
     }
 
+    > h4 {
+        padding-block-start: 0em;
+        margin-block-start: 0em;
+        padding-block-end: 0em;
+        margin-block-end: 0em;
+        color: #c48d3a;
+        font-family: 'Roboto', sans-serif;
+    }
+
     > p {
         color: #bebebe;
+
+        > span {
+            font-weight: 500;
+            color: #c48d3a;
+            font-family: 'Roboto', sans-serif;
+        }
     }
+
+    p:nth-last-child(1) {
+        margin-block-start: 0em;
+        padding-block-start: 0em;
+        /* border: 1px solid white; */
+    }
+    
 `
 const FooterLogoContainer = styled.div`
     width: 70%;

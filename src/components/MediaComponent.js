@@ -10,7 +10,7 @@ const MediaComponent = ({color, imgLinkOne, BannerOneTitle, BannerOneBody}) => {
         </MediaImageHolder>
         <MediaTextContainer>
             <Heading>
-                <h1>{BannerOneTitle}</h1>
+                <h3>{BannerOneTitle}</h3>
             </Heading>
             <p>{BannerOneBody}</p>
             <LearnMoreContainer>
@@ -55,12 +55,10 @@ const MediaTextContainer = styled.div`
 
 
     > p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
         color: #fff;
-        /* padding-top: 20px; */
+        font-size: 18px;
+        font-weight: 200;
+        padding-block-end: 0em;
 
     }
 
@@ -75,13 +73,11 @@ const MediaTextContainer = styled.div`
 const Heading = styled.div`
     /* border-bottom: 2px solid white; */
 
-    > h1 {
-        font-size: 25px;
-        ffont-weight: 900;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        margin-block-end: 0em;
+    > h3 {
         color: #c48d3a;
+        font-size: 30px;
+        font-weight: 200;
+        margin-block-end: 0em;
         /* border-bottom: 1px solid white; */
     }
 `

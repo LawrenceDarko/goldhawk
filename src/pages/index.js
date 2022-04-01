@@ -10,10 +10,24 @@ import MediaComponentRight from '../components/MediaComponentRight';
 
 function Home() {
 
-  const BannerOneTitle = "This is the Banner One Title";
-  const BannerOneBody = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisl nunc euismod nisi, eu porttitor nisl nunc euismo";
-  const BannerTwoTitle = "This is the Banner Two Title";
-  const BannerTwoBody = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur, nisl nunc euismod nisi, eu porttitor nisl nunc euismod";
+  const BannerOneTitle = "Alluvial and Hard Rock Gold Prospecting/Exploration";
+  const BannerOneBody = "GoldHawk offers avant-garde alluvial and hard rock prospecting and exploration services to help discover and unlock the value of your next deposit.";
+  const BannerTwoTitle = "Large/Small Scale Mining Advisory Services";
+  const BannerTwoBody = "We are the go-to consultants who offer you nuggets of winning counsel in Ghana's mining industry as well as the broader global mining space.";
+  const BannerThreeTitle = "Geological Mapping and Geographic Information System (GIS) Services";
+  const BannerThreeBody = "We are at the vanguard in mapping out geological structures, and providing cutting-edge GIS services that help you accurately locate your orebody in three dimensional space.";
+  const BannerFourTitle = "Mining Concession Sale/Purchase Facilitation";
+  const BannerFourBody = "Do you want sell or buy a mining concession?  Don't hesitate to touch base with us as we hold the key to obtaining substantial value in mining concession sale and acquisition.";
+  const BannerFiveTitle = "Large Quantity Gold Bullion Purchase";
+  const BannerFiveBody = "Do you want to buy gold in large quantity? Resort to our professional guideposts in making the right choices.";
+  const BannerSixTitle = "Tenement Management";
+  const BannerSixBody = "Are you seeking agile managers for your mining or mineral property? We at GoldHawk have crafted an enviable reputable in this enterprise.";
+  const BannerSevenTitle = "Mineral Resource Estimation";
+  const BannerSevenBody = "Quantify and evaluate the value and upside potential of your mineral project by reaching out to us.";
+  const BannerEightTitle = "Technical Due Diligence";
+  const BannerEightBody = "Check, recheck and cross-check before you make your next mining project acquisition. We are your trusted partner in ensuring your mining project fundamentals and indicators are realistic and robust to anchor your success.";
+  const BannerNineTitle = "Metal Detecting";
+  const BannerNineBody = "We are the metal detecting Mojos. We will find your next retirement cache, antique, or insitu gold nugget for you.";
 
   const colorOne = "#00507b"
   const colorTwo = "#006c7b"
@@ -40,14 +54,21 @@ function Home() {
                   <img src="/about.jpg" alt='Carousel' />
                 </ImageHolder>
                 <ImageTextContainer>
-                  <h1>BEST GEO-AGENCY IN GHANA</h1>
+                  <h1>LEADING-EDGE GEOLOGICAL AND MINING CONSULTANCY FIRM IN GHANA</h1>
                   <h4>CLITA ELITR ET AMET ET IPSUM SEA. IPSUM STET KASD EA ET NO EST DUO DIAM. LOREM DOLORES EOS UT NONUMY IPSUM SIT CLITA LOREM NO AMET DOLOR DOLORE, STET SIT DOLOR JUSTO.</h4>
                   <p>Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero. Tempor ipsum at justo amet at ipsum justo. Aiam kasd sea sit dolor duo elitr dolor amet, justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores. Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor. Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.</p>
                 </ImageTextContainer>
                 
             </WhoWeAre>
-          <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerOneTitle} BannerOneBody={BannerOneBody} />
-          <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerTwoTitle} BannerTwoBody={BannerTwoBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerOneTitle} BannerOneBody={BannerOneBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerTwoTitle} BannerTwoBody={BannerTwoBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerThreeTitle} BannerOneBody={BannerThreeBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerFourTitle} BannerTwoBody={BannerFourBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerFiveTitle} BannerOneBody={BannerFiveBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerSixTitle} BannerTwoBody={BannerSixBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerSevenTitle} BannerOneBody={BannerSevenBody} />
+            <MediaComponentRight bannerheight={bannerheight} imgLinkTwo={imgLinkTwo} color={colorTwo} BannerTwoTitle={BannerEightTitle} BannerTwoBody={BannerEightBody} />
+            <MediaComponent bannerheight={bannerheight} imgLinkOne={imgLinkOne} color={colorOne} BannerOneTitle={BannerNineTitle} BannerOneBody={BannerNineBody} />
             <OurServices />
             <UpcomingPrograms>
                 {/* This is the text in the notice board */}
@@ -299,12 +320,12 @@ const ImageTextContainer = styled.div`
   
   > h1 {
       /* color: white; */
-      line-height: 2.9rem;
+      line-height: 1.9rem;
       margin-bottom: 0.3rem;
       text-transform: uppercase;
       /* font-size: calc(1.475rem + 2.7vw); */
       color: #343a40;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       font-weight: 900;
       font-family: "Oswald", sans-serif;
       display: block;

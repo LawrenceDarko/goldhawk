@@ -25,7 +25,7 @@ const OurServices = () => {
     <ServicesCarousel>
         <OurServicesTextContainer>
           <h2>Our Services</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsam suscipit hic facere harum fuga, odio nihil culpa iste in ullam, officiis quo non quam neque obcaecati consequuntur? Iusto, cumque?</p>
+          <p>In the past two decades GoldHawk Geoconsult has etched itself as a front-end player in the Geological and mining consulting space in Ghana. Our team is cross-functional and culturally diverse having amassed wealth of experience spanning multiple jurisdictions. Reach out to us and let's have a constructon conversation about your prospective project</p>
         </OurServicesTextContainer>
         <Swiper
           navigation
@@ -187,8 +187,9 @@ const OurServicesTextContainer = styled.div`
 
     > p {
         color: #fff;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 300;
+        text-align: center;
         font-family: 'Open Sans', sans-serif;
 
         @media (max-width: 768px) {

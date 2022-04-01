@@ -44,11 +44,11 @@ const Contact = () => {
             <OurTeamGallery imageLink={ImageSevenLink}/>
             <OurTeamGallery imageLink={ImageEightLink}/>
             <OurTeamGallery imageLink={ImageNineLink}/> */}
-            <p>Please contact our office via phone at +1 (604) 484-4399, or by email at info@newcoregold.com. <br/>You can also schedule an update with us here.</p>
+            <p>Please contact our office via phone at (+233) 5930 13134, or by email at info@goldhawkgeoconsult.com. <br/>You can also schedule an appointment with us.</p>
             <h4>Corporate Office:</h4>
-            <p>Suite 413 - 595 Burrard Street <br/>Vancouver, BC <br/>V7X 1J1 Canada</p>
+            <p>42 Achimota Golf Hills <br/>Accra, Ghana <br/></p>
             {/* <h4>Corporate Office:</h4> */}
-            <p><span>Telephone:</span> (604) 484 4399 <br/>info@newcoregold.com</p>
+            <p><span>Telephone:</span> (+233) 5930 13134 <br/>info@goldhawkgeoconsult.com</p>
          </GalleryImagesContainer>
          <Footer />
       </PageWrapper>

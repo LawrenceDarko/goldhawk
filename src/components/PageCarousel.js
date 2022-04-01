@@ -14,7 +14,7 @@ const PageCarousel = () => {
             <motion.h1 initial={{x:-100}} animate={{x:10}} transition={{type: 'spring', duration: 3, damping: 5, stiffness: 150}}>GEOCONSULT</motion.h1>
             <motion.h2 initial={{x:100}} animate={{x:10}} transition={{type: 'spring', duration: 3, damping: 10, stiffness: 150}}>Your decision to mine should go beyond the basis of seeing gold in the pan</motion.h2>
             <CustomButton>
-                <a href="mailto:">TELL US ABOUT A PROJECT</a>
+                <a href="mailto:edmund_akondo@yahoo.com">TELL US ABOUT YOUR PROJECT</a>
             </CustomButton>
         </CarouselTextContainer>
         

@@ -6,7 +6,7 @@ const MediaComponent = ({color, imgLinkTwo, BannerTwoTitle, BannerTwoBody}) => {
     <MediaItemContainer color={color}>
         <MediaTextContainer>
             <Heading>
-                <h1>{BannerTwoTitle}</h1>
+                <h3>{BannerTwoTitle}</h3>
             </Heading>
             <p>{BannerTwoBody}</p>
             <LearnMoreContainer>
@@ -51,11 +51,10 @@ const MediaTextContainer = styled.div`
     flex: 1;
 
     > p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
         color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        padding-block-end: 0em;
         /* padding-top: 20px; */
 
     }
@@ -71,13 +70,11 @@ const MediaTextContainer = styled.div`
 const Heading = styled.div`
     /* border-bottom: 2px solid white; */
 
-    > h1 {
-        font-size: 25px;
-        font-weight: 900;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        margin-block-end: 0em;
+    > h3 {
         color: #c48d3a;
+        font-size: 30px;
+        font-weight: 200;
+        margin-block-end: 0em;
         /* border-bottom: 1px solid white; */
     }
 `

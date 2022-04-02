@@ -63,15 +63,15 @@ const Blog = () => {
               </HeaderText>
               <ListContainer>
                 <ul>
-                <li>Scams</li> 
-                <li>Host community revolt</li> 
-                <li>Geological risk</li>  
-                <li>Mineral/Land title risk</li> 
-                <li>Government-led environmental crackdown</li> 
-                <li>Infiltration by illegal miners</li> 
-                <li>Extreme weather</li> 
-                <li>Unfriendly fiscal regime</li> 
-                <li>Confiscation/Expropriation/Resource Nationalisation</li> 
+                  <li>Scams</li> 
+                  <li>Host community revolt</li> 
+                  <li>Geological risk</li>  
+                  <li>Mineral/Land title risk</li> 
+                  <li>Government-led environmental crackdown</li> 
+                  <li>Infiltration by illegal miners</li> 
+                  <li>Extreme weather</li> 
+                  <li>Unfriendly fiscal regime</li> 
+                  <li>Confiscation/Expropriation/Resource Nationalisation</li> 
                 </ul>
               </ListContainer>
               <ListContainer>

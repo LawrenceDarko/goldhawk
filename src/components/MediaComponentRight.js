@@ -14,7 +14,7 @@ const MediaComponent = ({color, imgLinkTwo, BannerTwoTitle, BannerTwoBody}) => {
             </LearnMoreContainer>
         </MediaTextContainer>
         <MediaImageHolder>
-            <img priority={true} src={`/images/${imgLinkTwo}`} alt="media" width={400} height={270} />
+            <img src={`/images/${imgLinkTwo}`} alt="media" width={400} height={270} />
         </MediaImageHolder>
     </MediaItemContainer>
   )

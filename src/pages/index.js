@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import PageCarousel from '../components/PageCarousel';
 import OurServices from '../components/OurServices';
 import Footer from '../components/Footer';
-import {Helmet} from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import MediaComponent from '../components/MediaComponent';
 import MediaComponentRight from '../components/MediaComponentRight';
 
@@ -45,6 +45,7 @@ function Home() {
   const bannerheight = "500px";
 
   return (
+    <HelmetProvider>
     <>
       <Helmet>
         <title>Home | Goldhawk Geoconsult</title>
@@ -99,6 +100,7 @@ function Home() {
             <Footer />
       </BodyWrapper>
     </>
+    </HelmetProvider>
   )
 }
 

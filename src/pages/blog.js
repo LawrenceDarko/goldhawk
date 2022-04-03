@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
 import OtherPagesCarousel from '../components/OtherPagesCarousel';
 // import TheProjects from '../components/TheProjects';
-import {Helmet} from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const Blog = () => {
@@ -33,6 +33,7 @@ const Blog = () => {
 
 
   return (
+    <HelmetProvider>
     <>
       <Helmet>
         <title>Services | Goldhawk Geoconsult</title>
@@ -90,6 +91,7 @@ const Blog = () => {
           <Footer />
       </PageWrapper>
     </>
+    </HelmetProvider>
     )
 };
 

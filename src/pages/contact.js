@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import OtherPagesCarousel from '../components/OtherPagesCarousel';
 // import OurTeamGallery from '../components/OurTeamGallery';
-import {Helmet} from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Contact = () => {
 
@@ -22,6 +22,7 @@ const Contact = () => {
 
 
   return (
+    <HelmetProvider>
     <>
       <Helmet>
         <title>Contact | Goldhawk Geoconsult</title>
@@ -53,6 +54,7 @@ const Contact = () => {
          <Footer />
       </PageWrapper>
     </>
+    </HelmetProvider>
   )
 };
 

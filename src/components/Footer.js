@@ -9,7 +9,7 @@ const Footer = () => {
             <FooterOne>
                 <h2>GoldHawk GeoConsult</h2>
                 <FooterLogoContainer>
-                    <img priority={true} src="/logo.png" width="150px" height="60px" alt='footer' />
+                    <img src="/logo.png" width="150px" height="60px" alt='footer' />
                 </FooterLogoContainer>
                 <p>What sets us apart from the throng is our result orientation and culture of excellence. </p>
             </FooterOne>

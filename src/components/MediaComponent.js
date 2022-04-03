@@ -6,7 +6,7 @@ const MediaComponent = ({color, imgLinkOne, BannerOneTitle, BannerOneBody}) => {
   return (
     <MediaItemContainer color={color}>
         <MediaImageHolder>
-            <img priority={true} src={`/images/${imgLinkOne}`} alt="media" width={400} height={270} />
+            <img src={`/images/${imgLinkOne}`} alt="media" width={400} height={270} />
         </MediaImageHolder>
         <MediaTextContainer>
             <Heading>

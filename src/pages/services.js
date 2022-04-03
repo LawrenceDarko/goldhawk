@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import Navbar from '../components/Navbar'
 import OtherPagesCarousel from '../components/OtherPagesCarousel';
 import Footer from '../components/Footer';
-import {Helmet} from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Services = () => {
 
   const Title = "Services"
 
   return (
+    <HelmetProvider>
     <>
       <Helmet>
         <title>Services | Goldhawk Geoconsult</title>
@@ -63,7 +64,7 @@ const Services = () => {
            </InsightContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/services/s2.png" alt="Services"/>
+                <img src="/co.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Professional Services</h3>
@@ -77,12 +78,12 @@ const Services = () => {
                 <p>We at GoldHawk ensure value creation through derisking of prospects through adequate prospecting and pitting to obtain profound information on the deposit to be mined, and issue an advisory accordingly. Our prospecting team come with unmatched experience and profile in the alluvial mining space and are credited with numerous gold discoveries.</p>
               </CommentText>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a1.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a2.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Alluvial Large/Small scale Mining Advisory Services</h3>
@@ -96,12 +97,12 @@ const Services = () => {
                 <p>Don't get fleeced by gold scammers before you knock on our door. We are trusted suppliers and brokers in the value chain who will deliver your bullion orders to your utmost satisfaction. We have curated a reputation of credibility and originality, which has scored us more opportunities. We leverage our contacts to deliver high purity bullion that are hassle-free and issues-free. Our consignment come with assay certificate from reputable institutions, ensuring that our deliveries are tailored to your exact specifications and needs.</p>
               </CommentText>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a3.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a4.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Geological Mapping and GIS Services</h3>
@@ -127,12 +128,12 @@ const Services = () => {
                 <p>Define, quantify, analyze, optimize and derisk before taking the ultimate decision to mine. Having foreknowledge of metrics such as grade, volume, contained and recoverable ounces are extremely crucial in mining decision making, as they are directly related to viability and overall profitability. At GoldHawk we deem the decision to mine sacred, and invest a lot of effort and pragmatism in ensuring that decision is worthwhile. After a comprehensive prospecting or exploration program, the deposit is delimited, statistically analyzed, modeled, classified and evaluated. We're able to characterize the ore body in 3-dimensions and make grade and tonnage (volume) predictions that serve as a model and a guide for extraction. We are able to determine upfront the viability, upside and optionality your deposit holds and advise accordingly. </p>
               </CommentText>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a5.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a6.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Metal Detecting</h3>
@@ -149,7 +150,7 @@ const Services = () => {
                 <p>The process of mineral rights acquisition in Ghana can be convoluted, jarring and frustrating at times, but GoldHawk, with years of engaging in license and permit acquisitions has mastered the craft of  securing permits seamlessly despite the hurdles. Our competitive advantage lies in our contacts and wealth of experience amassed in going through this grueling process in the past. Partner with us to make your mineral rights acquisition an effortless one.</p>
               </CommentText>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/a7.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
@@ -174,6 +175,7 @@ const Services = () => {
          <Footer />
       </PageWrapper>
     </>
+    </HelmetProvider>
   )
 };
 
@@ -450,7 +452,7 @@ const ImageTextContainer = styled.div`
 `
 const SmallCard = styled.div`
     width: auto;
-    height: 65vh;
+    height: auto;
     background-color: #00bfa5;
     display: flex;
     flex-direction: column;
@@ -473,6 +475,16 @@ const SmallCard = styled.div`
         color: #fff;
         font-size: 15px;
         font-weight: 400;
+        /* padding-block-end: 0em;
+        margin-block-end: 0em; */
+        line-height: 0.5;
+        letter-spacing: 0.5px;
+    }
+
+    > p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
         padding-block-end: 0em;
         margin-block-end: 0em;
         line-height: 0.5;
@@ -483,6 +495,7 @@ const SmallCard = styled.div`
 
     @media (max-width: 768px) {
         width: auto;
+        height: auto;
 
         > h3 {
             font-size: 25px;
@@ -539,6 +552,7 @@ const CommentContainer = styled.div`
     /* width: 100%; */
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
     /* border: 1px solid red; */
 
     @media (max-width: 768px) {
@@ -546,13 +560,15 @@ const CommentContainer = styled.div`
         justify-content: center;
         align-items: center;
 
-        
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 `
 
 const CommentImage = styled.div`
     width: 100%;
+    object-fit: cover;
     /* border: 1px solid black; */
 
     > img {
@@ -575,7 +591,7 @@ const CommentText = styled.div`
         font-weight: 200;
         margin-block-end: 0em;
         /* font-family: 'Roboto', sans-serif; */
-        white-space: nowrap;
+        /* white-space: nowrap; */
     }
 
     > p {
@@ -588,8 +604,8 @@ const CommentText = styled.div`
 
     @media (max-width: 768px) {
         width: auto;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-bottom: 50px;
 
         > h3 {
@@ -599,6 +615,8 @@ const CommentText = styled.div`
 
         > p {
             text-align: center;
+            /* padding-left: 5px;
+            padding-right: 5px; */
         }
     }
 `

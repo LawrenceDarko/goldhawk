@@ -64,6 +64,7 @@ const FooterContainer = styled.div`
         align-content: left;
         justify-content: space-around;
         /* padding: 50px; */
+        background-attachment: scroll !important;
         
     }
 

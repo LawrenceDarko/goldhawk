@@ -78,12 +78,12 @@ const Services = () => {
                 <p>We at GoldHawk ensure value creation through derisking of prospects through adequate prospecting and pitting to obtain profound information on the deposit to be mined, and issue an advisory accordingly. Our prospecting team come with unmatched experience and profile in the alluvial mining space and are credited with numerous gold discoveries.</p>
               </CommentText>
               <CommentImage>
-                <img src="/slider/a1.jpg" alt="Services"/>
+                <img src="/slider/as1.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/slider/a2.jpg" alt="Services"/>
+                <img src="/slider/as2.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Alluvial Large/Small scale Mining Advisory Services</h3>
@@ -97,12 +97,12 @@ const Services = () => {
                 <p>Don't get fleeced by gold scammers before you knock on our door. We are trusted suppliers and brokers in the value chain who will deliver your bullion orders to your utmost satisfaction. We have curated a reputation of credibility and originality, which has scored us more opportunities. We leverage our contacts to deliver high purity bullion that are hassle-free and issues-free. Our consignment come with assay certificate from reputable institutions, ensuring that our deliveries are tailored to your exact specifications and needs.</p>
               </CommentText>
               <CommentImage>
-                <img src="/slider/a3.jpg" alt="Services"/>
+                <img src="/slider/as3.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/slider/a4.jpg" alt="Services"/>
+                <img src="/slider/as4.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Geological Mapping and GIS Services</h3>
@@ -128,12 +128,12 @@ const Services = () => {
                 <p>Define, quantify, analyze, optimize and derisk before taking the ultimate decision to mine. Having foreknowledge of metrics such as grade, volume, contained and recoverable ounces are extremely crucial in mining decision making, as they are directly related to viability and overall profitability. At GoldHawk we deem the decision to mine sacred, and invest a lot of effort and pragmatism in ensuring that decision is worthwhile. After a comprehensive prospecting or exploration program, the deposit is delimited, statistically analyzed, modeled, classified and evaluated. We're able to characterize the ore body in 3-dimensions and make grade and tonnage (volume) predictions that serve as a model and a guide for extraction. We are able to determine upfront the viability, upside and optionality your deposit holds and advise accordingly. </p>
               </CommentText>
               <CommentImage>
-                <img src="/slider/a5.jpg" alt="Services"/>
+                <img src="/slider/as5.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/slider/a6.jpg" alt="Services"/>
+                <img src="/slider/as6.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Metal Detecting</h3>
@@ -150,12 +150,12 @@ const Services = () => {
                 <p>The process of mineral rights acquisition in Ghana can be convoluted, jarring and frustrating at times, but GoldHawk, with years of engaging in license and permit acquisitions has mastered the craft of  securing permits seamlessly despite the hurdles. Our competitive advantage lies in our contacts and wealth of experience amassed in going through this grueling process in the past. Partner with us to make your mineral rights acquisition an effortless one.</p>
               </CommentText>
               <CommentImage>
-                <img src="/slider/a7.jpg" alt="Services"/>
+                <img src="/slider/as7.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/as8.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Mining concession sale/purchase facilitation</h3>
@@ -168,7 +168,7 @@ const Services = () => {
                 <p>Every miner and prospective investor must err on the side of conducting technical due diligence prior to an acquisition or joint venture partnership to sift through the bells and whistles to ensure value is obtained. GoldHawk delivers this service expertly through meticulous assessment of mineral titles and other concession documentation, empirical data acquisition, cross verification of claims, among others. Due diligence exercises are extremely pivotal to navigate fatal flaws associated with projects and ensure maximization of value, which is our primary calling and mandate.</p>
               </CommentText>
               <CommentImage>
-                <img src="/co.jpg" alt="Services"/>
+                <img src="/slider/as9.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
          </WhiteSpace>

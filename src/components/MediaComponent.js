@@ -1,5 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 const MediaComponent = ({color, imgLinkOne, BannerOneTitle, BannerOneBody}) => {
     // console.log(BannerOneTitle)
@@ -14,7 +15,7 @@ const MediaComponent = ({color, imgLinkOne, BannerOneTitle, BannerOneBody}) => {
             </Heading>
             <p>{BannerOneBody}</p>
             <LearnMoreContainer>
-                <LearnMoreButton>Learn More</LearnMoreButton>
+                <Link to="/services"><LearnMoreButton>Learn More</LearnMoreButton></Link>
             </LearnMoreContainer>
         </MediaTextContainer>
     </MediaItemContainer>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 const MediaComponent = ({color, imgLinkTwo, BannerTwoTitle, BannerTwoBody}) => {
@@ -10,7 +11,7 @@ const MediaComponent = ({color, imgLinkTwo, BannerTwoTitle, BannerTwoBody}) => {
             </Heading>
             <p>{BannerTwoBody}</p>
             <LearnMoreContainer>
-                <LearnMoreButton>Learn More Lorem</LearnMoreButton>
+                <Link to="/services"><LearnMoreButton>Learn More</LearnMoreButton></Link> 
             </LearnMoreContainer>
         </MediaTextContainer>
         <MediaImageHolder>

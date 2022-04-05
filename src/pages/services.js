@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar'
 import OtherPagesCarousel from '../components/OtherPagesCarousel';
@@ -8,6 +8,15 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 const Services = () => {
 
   const Title = "Services"
+
+  // useEffect(() => {
+  //   const myId = window.location.hash.slice(1);
+  //   const myIdElement = document.getElementById(myId);
+  //   if (myIdElement) {
+  //     myIdElement.scrollIntoView({behavior: "smooth", block: "start"});
+  //   }
+  // }, [])
+  
 
   return (
     <HelmetProvider>
@@ -71,7 +80,7 @@ const Services = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae vel ducimus accusamus praesentium officiis quasi dolorem ipsa autem voluptate tempora voluptatem quo recusandae rem illo </p>
               </CommentText>
            </CommentContainer>
-           <CommentContainer>
+           <CommentContainer id='AGP'>
               <CommentText>
                 <h3>Alluvial gold prospecting</h3>
                 <p>Alluvial gold prospecting can be a formidable task given the nature of this type of deposit. Alluvial deposits are inherently scant, relatively, and occur at lower concentrations. It is very easy to be swayed by gold particles obtained after panning of alluvial concentrates and jump hurriedly into decision to exploit. It is a catchphrase at GoldHawk that "Mining decision should always go beyond the basis of seeing gold in the pan". GoldHawk advocates additional work be carried out to establish critical indices like grade, overburden thickness and gravel width before taking a mining decision. A preponderant number of investors have suffered phenomenal cashburn due to failure to undertake comprehensive assessment of their mineral prospects through detailed prospecting and other sampling work.</p>
@@ -552,7 +561,7 @@ const CommentContainer = styled.div`
     /* width: 100%; */
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     /* border: 1px solid red; */
 
     @media (max-width: 768px) {

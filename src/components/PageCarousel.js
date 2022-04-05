@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 
 const PageCarousel = () => {
   return (
-    <ImageContainer priority={true}>
+    <ImageContainer >
         <CarouselTextContainer>
             <motion.h1 initial={{x:-100}} animate={{x:10}} transition={{type: 'spring', duration: 3, damping: 5, stiffness: 150}}>GOLDHAWK</motion.h1>
             <motion.h1 initial={{x:-100}} animate={{x:10}} transition={{type: 'spring', duration: 3, damping: 5, stiffness: 150}}>GEOCONSULT</motion.h1>
@@ -55,6 +55,7 @@ const ImageContainer = styled.div`
         align-items: left;
         align-content: left;
         justify-content: space-around;
+        background-attachment: scroll !important;
         /* padding-left: 5vh; */
   }
 

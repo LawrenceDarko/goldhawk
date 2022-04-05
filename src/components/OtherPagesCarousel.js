@@ -33,6 +33,10 @@ const PageHeaderImageContainer = styled.div`
     background-attachment: fixed;
     line-height: 1.5;
 
+    @media (max-width: 768px) {
+      background-attachment: scroll !important;
+    }
+
     > h1 {
         color: #c48d3a;
         font-size: 2.5rem;
@@ -48,7 +52,7 @@ const PageHeaderImageContainer = styled.div`
         
 
         &:hover{
-            border-bottom: 5px solid #FFB733;;
+            border-bottom: 2px solid #c48d3a;
             /* font-size: 70px */
         }
     }

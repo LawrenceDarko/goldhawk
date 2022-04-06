@@ -49,7 +49,7 @@ const MediaTextContainer = styled.div`
     flex-direction: column;
     padding-right: 20px;
     /* border: 1px solid black; */
-    flex: 1;
+    flex: 0.7;
 
     > p {
         color: #fff;
@@ -119,7 +119,7 @@ const MediaImageHolder = styled.div`
     /* justify-content: center; */
     /* align-items: center; */
     /* border: 1px solid white; */
-    /* flex: 1; */
+    flex: 0.3;
     /* scale box */
     /* position: relative; */
     height: 380px;

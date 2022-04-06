@@ -69,7 +69,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a1.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as2.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -79,7 +79,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a2.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as5.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -89,7 +89,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a3.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as4.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -99,7 +99,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a4.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as11.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -109,7 +109,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a5.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as13.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -119,7 +119,7 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a6.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as8.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
@@ -129,11 +129,11 @@ const OurServices = () => {
           <SwiperSlide className="theSwiper"
             style={{
               backgroundImage:
-                "url(/slider/a7.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+                "url(/slider/as12.jpg)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
             }}
           >
             <SlideTextContainer>
-              <h3>Mineral Resource Estimation</h3>
+              <h3>Geological Mapping and GIS Services</h3>
             </SlideTextContainer>
           </SwiperSlide>
         </Swiper>

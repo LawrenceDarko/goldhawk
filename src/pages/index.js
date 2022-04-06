@@ -59,7 +59,7 @@ function Home() {
       <BodyWrapper>
             <WhoWeAre>
                 <ImageHolder>
-                  <img src="/slider/as8.jpg" alt='Carousel' />
+                  <img src="/slider/h.png" alt='Carousel' />
                 </ImageHolder>
                 <ImageTextContainer>
                   <h1>LEADING-EDGE GEOLOGICAL AND MINING CONSULTANCY FIRM IN GHANA</h1>

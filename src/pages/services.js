@@ -92,7 +92,7 @@ const Services = () => {
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/slider/as2.jpg" alt="Services"/>
+                <img src="/co.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Alluvial Large/Small scale Mining Advisory Services</h3>
@@ -106,12 +106,12 @@ const Services = () => {
                 <p>Don't get fleeced by gold scammers before you knock on our door. We are trusted suppliers and brokers in the value chain who will deliver your bullion orders to your utmost satisfaction. We have curated a reputation of credibility and originality, which has scored us more opportunities. We leverage our contacts to deliver high purity bullion that are hassle-free and issues-free. Our consignment come with assay certificate from reputable institutions, ensuring that our deliveries are tailored to your exact specifications and needs.</p>
               </CommentText>
               <CommentImage>
-                <img src="/slider/as3.jpg" alt="Services"/>
+                <img src="/slider/as4.jpg" alt="Services"/>
               </CommentImage>
            </CommentContainer>
            <CommentContainer>
               <CommentImage>
-                <img src="/slider/as4.jpg" alt="Services"/>
+                <img src="/slider/as12.jpg" alt="Services"/>
               </CommentImage>
               <CommentText>
                 <h3>Geological Mapping and GIS Services</h3>
